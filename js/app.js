@@ -75,18 +75,30 @@ class App {
 				password: "password2",
 				likes: [],
 			},
+			{
+				id: 2,
+				usersName: "utilizadorEsmad",
+				dob: "2003-02-02",
+				nif: "222222",
+				city: "city2",
+				gender: "gender2",
+				email: "utilizador@esmad.ipp.pt",
+				phone: "88888888",
+				password: "utilizadorEsmad",
+				likes: [],
+			},
 		];
 
 		const testCenters = [
 			{
 				id: 0,
-				testCenterName: "testCenterName1",
-				address: "address1",
+				testCenterName: "Unilabs Praça da Batalha",
+				address: "Rua Agusto Rosa 120, 4000-098 Porto",
 				contact: {
-					email: "email1",
-					phone: "phone1",
+					email: "info@unilabs.com",
+					phone: "222401401",
 				},
-				website: "website1",
+				website: "unilabs.pt",
 				availableTests: {
 					rapido: true,
 					pcr: false,
@@ -98,34 +110,29 @@ class App {
 				rating: 4,
 				comments: [
 					{
-						userComment: "userComment1",
-						comment: "comment1",
+						userComment: "Fernando Lemos",
+						comment: "Agenda muito clara e de fácil marcação",
 						userRating: 4,
 					},
 					{
-						userComment: "userComment2",
-						comment: "comment2",
-						userRating: 4,
-					},
-					{
-						userComment: "userComment3",
-						comment: "comment3",
+						userComment: "João Silva",
+						comment: "Resultado rápido!",
 						userRating: 4,
 					},
 				],
-				Latlng: "41.16197621222838,-8.650129656631044",
+				Latlng: "41.144563549333206, -8.607280702172778",
 				testsDone: 18,
 			},
 
 			{
 				id: 1,
-				testCenterName: "testCenterName2",
-				address: "address2",
+				testCenterName: "Hospital CUF Porto",
+				address: "Estr. da Circunvalação 14341, 4100-180 Porto",
 				contact: {
-					email: "email2",
-					phone: "phone2",
+					email: "info@cuf.com",
+					phone: "220039000",
 				},
-				website: "website2",
+				website: "cuf.pt",
 				availableTests: {
 					rapido: true,
 					pcr: true,
@@ -137,8 +144,8 @@ class App {
 				rating: 5,
 				comments: [
 					{
-						userComment: "userComment2",
-						comment: "comment2",
+						userComment: "Andreia Soares",
+						comment: "Teste feito com a maior segurança e com resultados breves! Ótimo serviço e atendimento.",
 						userRating: 4,
 					},
 				],
@@ -147,13 +154,13 @@ class App {
 			},
 			{
 				id: 2,
-				testCenterName: "test Center Name 3",
-				address: "address3",
+				testCenterName: "Hospital da Luz Arrábida",
+				address: "PCT de Henrique Moreira 150, 4400-346 Vila Nova de Gaia",
 				contact: {
-					email: "email3",
-					phone: "phone3",
+					email: "indo@hspluz.com",
+					phone: "223776800",
 				},
-				website: "website3",
+				website: "hospitaldaluz.pt",
 				availableTests: {
 					rapido: true,
 					pcr: true,
@@ -165,28 +172,28 @@ class App {
 				rating: 5,
 				comments: [
 					{
-						userComment: "userComment2",
-						comment: "comment2",
-						userRating: 4,
+						userComment: "Miguel Pereira",
+						comment: "Comodidade na realização do teste!",
+						userRating: 5,
 					},
 					{
-						userComment: "userComment2",
-						comment: "comment2",
+						userComment: "José Manuel",
+						comment: "Marcação rápida e fácil",
 						userRating: 4,
 					},
 				],
-				Latlng: "41.15227556940346,-8.609546584649845",
+				Latlng: "41.15739845744462, -8.625954731008417",
 				testsDone: 5,
 			},
 			{
 				id: 3,
-				testCenterName: "test Center Name 4",
-				address: "address4",
+				testCenterName: "Trofa Saúde Gaia",
+				address: "Rua Fernão Magalhães 2 fração E, 4404-501 Vila Nova de Gaia",
 				contact: {
-					email: "email4",
-					phone: "phone4",
+					email: "info@trofasaude.com",
+					phone: "220439600",
 				},
-				website: "website4",
+				website: "trofasaude.pt",
 				availableTests: {
 					rapido: true,
 					pcr: true,
@@ -198,18 +205,18 @@ class App {
 				rating: 1,
 				comments: [
 					{
-						userComment: "userComment1",
-						comment: "comment1",
-						userRating: 4,
+						userComment: "Eduardo Nunes",
+						comment: "Atendimento 5 estrelas!",
+						userRating: 5,
 					},
 					{
-						userComment: "userComment2",
-						comment: "comment2",
+						userComment: "Maria Gomes",
+						comment: "Teste realizado com a maior rapidez e sem dor!",
 						userRating: 4,
 					},
 				],
-				Latlng: "41.17110852790969,-8.629422419102033",
-				testsDone: 0,
+				Latlng: "41.1213249063888, -8.618567402173545",
+				testsDone: 2,
 			},
 		];
 
