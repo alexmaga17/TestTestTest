@@ -672,7 +672,7 @@ export default class testCentersView {
             <div class="container2-1bottom">
             <div class="btnContainer">
               <div class="wrapper">
-                <a class="cta" href="#">
+                <a class="cta" href="../../html/marcacao.html">
                   <span>Marcar teste aqui</span>
                   <span>
                     <svg
