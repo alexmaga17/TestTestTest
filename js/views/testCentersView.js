@@ -405,7 +405,7 @@ export default class testCentersView {
 			.querySelectorAll(".wrapper")[0]
 			.addEventListener("click", () => {
 				this.testCentersController.storeTempInfo(testCenterName);
-				window.location.href = "../../html/marcacao.html";
+				window.location.href = "marcacao.html";
 			});
 	}
 
@@ -672,7 +672,7 @@ export default class testCentersView {
             <div class="container2-1bottom">
             <div class="btnContainer">
               <div class="wrapper">
-                <a class="cta" href="../../html/marcacao.html">
+                <a class="cta" href="marcacao.html">
                   <span>Marcar teste aqui</span>
                   <span>
                     <svg
