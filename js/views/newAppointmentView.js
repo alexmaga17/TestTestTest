@@ -50,7 +50,7 @@ export default class newAppointmentView {
 				radioSelected
 			);
 			this.testCentersController.addTestDone(testCenter);
-			window.location.href = "../../html/validacao.html";
+			window.location.href = "validacao.html";
 		});
 	}
 
